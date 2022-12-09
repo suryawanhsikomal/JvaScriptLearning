@@ -10,7 +10,7 @@ console.log(myLove)
 
 var firstName="Komal"
 var lastName="Suryawanshi"
-var age="31"
+var age="30"
 var address="Nerul Navi Mumbai"
 var pin_code="400706"
 var gender="Female"
