@@ -5,6 +5,7 @@ var result= st;
 console.log(`1.Length of given string:${result.length}`);
 var trimResult = st.trim();
 console.log(`2.Sentence after trim:${trimResult}`);
+// console.log(`After removing all black spaces legnth of dtring is:${trimResult.length}`);
 console.log(`3.Length of string after trim:${trimResult.length}`);
 console.log("4.Charecter at fist index:",trimResult.charAt(0)  , "Chrecter at last index:",trimResult.charAt(33));
 // console.log("Charecter at fist index:",trimResult.charAt(0) , "Chrecter at last index:",trimResult.charAt(length-1));
@@ -25,3 +26,8 @@ console.log(`9.Check the  string star with word Hey after trimmimg using include
 
 }
 sentence(`    Hey you are doing good, keep it up      `);
+
+// var greet = "    Good Morning     ";
+//  console.log("Length ", greet.length);
+//  var resultTrim = greet.trim();
+//   console.log( "trim()", resultTrim, "Length: ", resultTrim.length);
