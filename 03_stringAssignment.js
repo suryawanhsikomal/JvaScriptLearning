@@ -27,7 +27,3 @@ console.log(`9.Check the  string star with word Hey after trimmimg using include
 }
 sentence(`    Hey you are doing good, keep it up      `);
 
-// var greet = "    Good Morning     ";
-//  console.log("Length ", greet.length);
-//  var resultTrim = greet.trim();
-//   console.log( "trim()", resultTrim, "Length: ", resultTrim.length);
