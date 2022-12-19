@@ -7,3 +7,15 @@ console.log(`addtion:${resultAdd}`);
 
 var num = new Number("Prathamesh"); 
 console.log(`num is: ${num}`);
+
+result = Number(`hello`)
+console.log(`${result}`);
+
+
+result = Number(`2191e-1`)
+console.log(`${result}`);
+
+
+result = Number(`2191e-2`)
+console.log(`${result}`);
+

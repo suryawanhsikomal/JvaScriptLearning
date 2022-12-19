@@ -25,4 +25,11 @@ var myNumber = -77.333;
 console.log(`myNumber values ${myNumber} and it's type is: ${typeof myNumber}`);
 var strMyNumber = myNumber.toString();
 console.log(`strMyNumber values ${strMyNumber} and it's type is: ${typeof strMyNumber}`);
+console.log(`=================================================================`);
+var age="31";
+var age2023 =+ age;
+console.log(`${age} data type ${typeof age}`);
+console.log(`${age2023} data type ${typeof age2023}`);
+
+
 
