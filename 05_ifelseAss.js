@@ -30,6 +30,7 @@ var gradeCalculation = function(marks){
         console.log(` Mark is: ${marks} "Please provide valid data"`);
         
     } else {
+        console.log(`valid data`);
        
         
     }
