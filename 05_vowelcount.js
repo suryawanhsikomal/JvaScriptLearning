@@ -21,7 +21,7 @@ var sentence =`Never lose hope Everything will be fine`
 var reverceString="";
 var  lastCharPosition = sentence.length-1;
 for (let index= lastCharPosition; index >=0; index--) {
-    // const element = array[index];
+  
     var char= sentence.charAt(index)
     // console.log(char);
 reverceString=reverceString.concat(char);
