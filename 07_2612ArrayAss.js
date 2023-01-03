@@ -7,6 +7,17 @@ let totalElements = arrayOfNumber.length;
 console.log(`4.Total Elements in arrayOfNumbers: ${totalElements}`);
 console.log(`5.Last Element in arrayOfNumber : ${arrayOfNumber[10]}`); //find the error
  console.log(`6.Display third last element in the array using length property:${arrayOfNumber[11-3]}`);//wrong
+ console.log(`================Even index value in given array==========`);
+ for (let index = 0; index < arrayOfNumber.length; index++) {
+  if(index%2==0)
+  {
+  const number = arrayOfNumber[index];
+  console.log(`7.Element at even ${index} position:${number}`);
+  }   
+  
+ }
+console.log(`================Odd index value in given array ==========`);
+ for (let index = 0; index < arrayOfNumber.length; index++) {
   if(index%2!=0)
   {
   const number = arrayOfNumber[index];
