@@ -1,19 +1,19 @@
 function Student(name, rollNo, age){
     this.name = name;
-    this.rollNo = rollNo;
+    this.rollNo1 = rollNo;
     this.age = age;
  }
  let s1 = new Student("Vinny", 111, 23);
- console.log(s1.rollNo);
+ console.log(s1.rollNo1);
  let s2 = new Student("Jenny", 22, 35);
  console.log(s1);
  
- console.log("================");
- function Student(name, rollNo, age){
-    this.name = name;
-    this.rollNo = rollNo;
-    this.age = age;
- }
+//  console.log("================");
+//  function Student(name, rollNo, age){
+//     this.name = name;
+//     this.rollNo = rollNo;
+//     this.age = age;
+//  }
  Student.prototype.country = "India";
  let vinny = new Student("Vinny", 111, 23);
  let jenny = new Student("Jenny", 44, 45);

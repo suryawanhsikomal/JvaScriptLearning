@@ -20,6 +20,7 @@ let kat = {
     role: "actress"
 } 
 let jack = kat;
+console.log(jack);
 // Concat or Merge array
 console.log(" ====== array merge or concat====== ");
 let arrayNum = [0, 2, 4, 6, 8 ];
@@ -31,6 +32,9 @@ console.log(concatArray);
 console.log("Array merge or concat using spread operator ");
 let mergeArray = [...arrayNum, ... arrayNumb];
 console.log(mergeArray);
+// console.log(`---------------------------------------------------------------`);
+// Object.assign(arrayNum,arrayNumb);
+// console.log(arrayNumb);
 
 console.log("===== Object merge using spread operator ======");
 let empAnil = {
@@ -41,5 +45,8 @@ let empAddress = {
     city: "Pune",
     street: "Wakad - 411057"
 }
-   let mergedObject = {...empAnil, ...empAddress};
-   console.log(mergedObject);
+
+
+
+
+  

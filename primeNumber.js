@@ -17,8 +17,14 @@
 // }
 
 
-var num=10;
+var num=7;
 var prime=true;
+if(num<=0)
+{
+    console.log("not valid number");
+
+}
+ else if(num>1) {
 for(i=2;i<num;i++){
     if(num%i==0)
     {
@@ -32,3 +38,7 @@ for(i=2;i<num;i++){
     else{
         console.log(`Given number is not prime number`);
     }
+}
+else{
+    console.log(`given number is neighter perime number nor composite number`);
+}

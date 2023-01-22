@@ -32,7 +32,7 @@ const person = {
 
   console.log(`=== Accessing an function from an object====`);
 person.speak();
-console.log(`Nested object`);
+console.log(`------------------Nested object------------------------------------`);
 const student = {
     name: "Stew Jobs",
     age: 50,
@@ -50,17 +50,21 @@ const student = {
 
 
 console.log(`Accessing an Nested object property`);
+console.log(student);
 const scienceMark =  student.marks.science;
 console.log(scienceMark);
 
 console.log(`Updating an Nested object property`);
 student.marks.english = 97;
+console.log(student);
 
 console.log(`Adding an Nested object property`);
 student.marks.programming = 100;
+console.log(student);
 
 console.log(`Deleting an Nested object property`);
 delete student.marks.english;
+console.log(student);
 
 console.log(`Accessing an array`);
 console.log(student.familyMemberNames);
@@ -88,15 +92,6 @@ console.log(`========== in operator ================`);
 // console.log(Object.keys(billgates));
 // console.log(Object.values(billgates))
 
-
-
-
-
-
-
-  
-
-
 // const myLaptop ={
 //     OS: "Bug sur",
 //     companyName: "Apple",
@@ -113,4 +108,6 @@ const mobile = {
 mobile.company = "Micromax";
 mobile.camera = "20Px";
 console.log(mobile);
+
+
 

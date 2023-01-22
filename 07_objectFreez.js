@@ -39,7 +39,6 @@ const sunil = {
     company: "Apple"
 }
 
-
 const sunilAddress = {
     city : "Pune",
     pin: "431202"
@@ -47,3 +46,4 @@ const sunilAddress = {
 // Merging two objects
 Object.assign(sunil,sunilAddress);
 console.log(sunil);
+

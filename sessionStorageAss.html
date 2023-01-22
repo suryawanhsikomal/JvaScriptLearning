@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Session Storage</title>
+    </head>
+    <h1>Session storage</h1>
+        <script>
+            window.sessionStorage.setItem("fullName","komal Suryawanshi");
+            window.sessionStorage.setItem("city","Navi Mumbai");
+            window.sessionStorage.setItem("pincode",400706);
+            window.sessionStorage.setItem("distric","Thane");
+            const name= window.sessionStorage.getItem("fullName")
+            console.log(name);
+            const place = window.sessionStorage.getItem("city");
+            console.log(place);
+            const pin = window.sessionStorage.getItem("pincode");
+            console.log(pin);
+             const distri = window.sessionStorage.getItem("distric");
+             console.log(distri);
+
+            window.sessionStorage.removeItem("city");
+  
+</html>

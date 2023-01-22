@@ -13,7 +13,10 @@ console.log(empSmith);
 console.log(empJay);
 console.log(empBill);
 
-let isInstance = studChetan instanceof Employee;
-console.log(isInstance);
+// let isInstance = studChetan instanceof Employee;
+// console.log(isInstance);
+let isInstance1 = empJay instanceof Employee;
+console.log(isInstance1);
+0
 // Object is an instance of class
 
